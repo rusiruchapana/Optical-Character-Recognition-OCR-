@@ -1,0 +1,8 @@
+2. Optical Character Recognition (OCR)
+Description: Extract text from images using OCR techniques.
+Goal: Learn text detection and recognition using machine learning.
+Tools: Tesseract OCR with OpenCV for preprocessing.
+Steps:
+Preprocess the image (e.g., thresholding, noise reduction).
+Use Tesseract to detect and extract text.
+Post-process results for better accuracy.
