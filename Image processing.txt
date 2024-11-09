@@ -6,3 +6,5 @@ Steps:
 Preprocess the image (e.g., thresholding, noise reduction).
 Use Tesseract to detect and extract text.
 Post-process results for better accuracy.
+
+https://chatgpt.com/share/672f766f-ddf8-8008-be75-84e1d3e235a6
