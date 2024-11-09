@@ -1,0 +1,6 @@
+@OcrAPI_HostAddress = http://localhost:5206
+
+GET {{OcrAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
