@@ -6,6 +6,7 @@ namespace OcrAPI.Entities;
 public class OCRResult
 {
     [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
     
     [Required]
