@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[4.10.0.20241108, )"
             },
+            "OpenCvSharp4.runtime.win": {
+              "target": "Package",
+              "version": "[4.10.0.20241108, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"

@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using OcrAPI.Datas;
+using OcrAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<OCRService>();
+builder.Services.AddControllers();
 
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -21,4 +24,5 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.MapControllers();
 app.Run();
